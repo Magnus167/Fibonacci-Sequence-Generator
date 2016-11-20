@@ -115,7 +115,7 @@ begin
   save.Add(Label4.Caption);
   save.Add(Label9.Caption);
   save.Add(TimeToStr(Time));
-  save.SaveToFile('C:\Users\Bellatrix\Desktop\fibbc.txt');
+  save.SaveToFile(((GetCurrentDir) + '\fibbc.txt');
   save.Clear;
   Label10.Caption := 'Term Number : ' + Edit1.Text;
 
